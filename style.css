@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+#hero{
+ background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://images.unsplash.com/photo-1689580863590-e76944ae22d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height:100vh;
+ background-attachment: fixed;
+
+}
+.hero h1{
+  font-size: 48px;
+  font-weight:700;
+  color:#fff;
+  margin:0 0 10px 0 ;
+  text-transform:uppercase;
+}
+.hero h2{
+ color:#eee;
+ margin-bottom:40px;
+ font-size:15px;
+ font-weight: 400;
+ letter-spacing: 0.5px;
+ font-family: 'Open Sans',sans-serif;
+ text-transform: uppercase;
+ 
+}
+
+#hero  a{
+ text-decoration: none;
+ color:rgb(0, 0, 0);
+ font-family: 'Open Sans',sans-serif;
+ padding:10px;
+ background-color: aqua;
+ box-shadow: 0px 0px 20px white;
+ border-radius: 12px;
+ 
+}
+
+
+
+.hero{
+ text-align: center;
+ padding:250px;
+ 
+}
+
+#navbarstyle{
+
+    background-color: rgba(0,0,0,0.4) !important;
+
+}
+#hero{
+ border:2px solid black;
+
+
+}
+
+.alink:hover{
+     color: aqua !important;
+    
+     
+}
+
+span{
+    font-size: 20px;
+    color:brown;
+    font-weight: 700;
+}
+.main{
+    background-color: black;
+}
+
+.footlabel{
+    background-color: gray;
+    text-align: center;
+    color:lightgray;
+}
+.card{
+    overflow: hidden;
+}
+.card-title{
+    color:aqua !important;
+    background-color: rgb(114, 120, 125);
+    padding:12px;
+    border-radius: 12px;
+}
+h2{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.nav1{
+
+ margin-left:auto
+
+}
+.about-content{
+    text-align: center;
+    margin: 10px auto;
+    width:600px;
+    padding-bottom: 30px;
+}
+.textinput{
+    height:50px;
+    width:300px;
+    border: none;
+    outline:none;
+}
+.textarea{
+    width:300px;
+    border: none;
+    outline:none;
+}
+
+
+
+
